@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, Fraunces, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1.8rem;
   height: 100vh;
   line-height: 1.5;
@@ -17,22 +17,7 @@ html {
 
 h1, h2, h3 {
   color: rgb(115, 3, 3);
-  font-family: Fraunces;
-}
-
-nav {
-  background-color: rgb(25, 8, 8);
-  color: white;
-  text-align: center;
-  padding: 2rem 7rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 4rem;
-}
-
-nav a img {
-  width: 15rem;
+  font-family:  sans-serif;
 }
 
 input[type="text"] {
@@ -48,25 +33,34 @@ input[type="text"] {
 
 .vehicle-list {
   display: flex;
+ 
   flex-wrap: wrap;
   padding: 2rem 5rem;
+  gap: 5rem;
 }
 
 .container {
-  width: 40%;
-  border: 1px red solid;
+  margin-top: 5rem;
+  width: 22%;
+  /* height: 50rem; */
+  border: 1px white solid;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center
+  box-shadow: 5px 5px 10px rgb(115, 3, 3);
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
 }
 
 .container  a img {
-  width: 5rem;
+  width: 3rem;
 }
 
 .swiper{
-  width: 80%;
+  width: 100%;
   height: fit-content;
 }
 
@@ -75,21 +69,85 @@ input[type="text"] {
   height: 100%;
   object-fit: cover;
   background-size: cover;
-  background-position: center;;
+  background-position: center;
+  border-radius: 2rem;
 }
 
-.swiper .swiper-button-prev {
-  color: red;
+.rent-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0rem 1rem;
 }
 
-.swiper .swiper-button-next {
-  color: red;
-}
-
-.swiper .swiper-pagination-bullet-active {
-  background: red;
+.rent-content h3 {
+  font-size: 1.5rem;
 }
 
 section h1 {
+  margin-top: 15rem;
   text-align: center;
+}
+
+@media screen and (max-width: 76rem) {
+  .vehicle-list {
+  display: flex;
+ 
+  flex-wrap: wrap;
+  padding: 2rem 5rem;
+  gap: 2rem;
+}
+
+.container {
+  margin-top: 5rem;
+  width: 100%;
+  /* height: 50rem; */
+  border: 1px white solid;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px rgb(115, 3, 3);
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.container  a img {
+  width: 3rem;
+}
+
+.swiper{
+  width: 100%;
+  height: fit-content;
+}
+
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+}
+
+.rent-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0rem 1rem;
+  gap: 3rem;
+}
+
+.rent-content h3 {
+  font-size: 1.5rem;
+}
+
+section h1 {
+  margin-top: 15rem;
+  text-align: center;
+}
 }

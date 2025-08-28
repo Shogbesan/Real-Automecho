@@ -13,7 +13,7 @@ function nextSlide() {
 }
 
 function prevSlide() {
-  currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+  currentIndex = (currentIndex - 3 + totalSlides) % totalSlides;
   updateSlide();
 }
 
@@ -62,7 +62,7 @@ slider.addEventListener('mouseup', e => {
 
 
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('#swiper', {
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
@@ -83,6 +83,7 @@ const swiper = new Swiper('.swiper', {
 
 });
 
+
 const menuToggle = document.querySelector('.menu-toggle');
 
 const menu = document.querySelector('.mobile-menu');
@@ -92,15 +93,27 @@ menuToggle.addEventListener('click', () => {
     menu.classList.toggle('active');
 });
 
+
 const chatBox = document.getElementById('chatBox');
 
   function toggleChat() {
     chatBox.classList.toggle('show-chat');
   }
 
-  // Auto show after 5 seconds (5000ms)
   window.onload = function () {
     setTimeout(() => {
       chatBox.classList.add('show-chat');
-    }, 5000);
+    }, 2000);
+
+    setTimeout(() => {
+      chatBox.classList.remove('show-chat');
+    }, 10000); // 10 seconds
   };
+
+
+  const faqs = document.querySelectorAll(".faq-item");
+    faqs.forEach(faq => {
+      faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+      });
+    });

@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: Arial, Fraunces, sans-serif;
-  font-size: 1.8rem;
+  font-family: Arial, sans-serif;
+  font-size: 1.7rem;
   height: 100vh;
   line-height: 1.5;
 }
@@ -18,13 +18,9 @@ html {
 
 h1, h2, h3 {
   color: rgb(115, 3, 3);
-  font-family: Fraunces;
+  font-family: sans-serif;
 }
 
-
-header {
-  background-color: gainsboro;
-}
 
 .navbar {
   display: flex;
@@ -179,44 +175,15 @@ header {
   color: white;
 }
 
-
-
-
-.welcome-section {
-  margin-top: 7rem;
-  /* background: rgba(64, 63, 63, 0.773); */
-  line-height: 2.5;
-}
-
-.welcome-section .welcome-section-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10rem;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem;
-  max-width: 100%;
-
-}
-
-.welcome-section .welcome-section-content .write-up-section {
-  width: 40%;
-}
-
 .welcome-button {
   display: flex;
   gap: 3rem;
-  margin-top: 7rem;
 }
-
-
-
 
 .welcome-button .book-appointment-btn {
   padding: 1.5rem 2rem;
   background-color: rgb(115, 3, 3);
   border: 3px solid rgb(115, 3, 3);
-  font-size: 2rem;
   color: white;
   border-radius: 10px;
   font-weight: 600;
@@ -228,8 +195,7 @@ header {
   padding: 1.5rem 2rem;
   background: none;
   border: 3px solid rgb(115, 3, 3) ;
-  font-size: 2rem;
-  color: rgb(115, 3, 3);
+  color: white;
   border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
@@ -245,153 +211,181 @@ header {
   background: rgb(180, 78, 78);
 }
 
-.welcome-video {
-  width: 40%;
-  height: 50rem;
-  border: 3px rgb(115, 3, 3) solid;
-  /* border-radius: 3rem; */
+.heading {
+  margin-top: 2rem;
 }
 
-.instagram-media {
-  height: 100%;
-  width: 100%;
-  border-radius: 3rem;
-}
-
-.Service-section h1 {
+.heading h1 {
   text-align: center;
-  padding-top: 4rem;
-  font-size: 7rem;
-  margin-bottom: 0rem;
 }
 
+.heading h2 {
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+}
 
+.repair-section {
+  margin-top: 0rem;
+  padding: 1rem 5rem;
+}
 
-.car-rental-section {
+.repair-container-1 {
   display: flex;
-  padding: 8rem 0rem;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  background: rgb(231, 232, 225);
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-
+  gap: 3rem;
+  margin-top: 3rem;
 }
 
-.Service-section .car-repair-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  background: #7c7878;
-  line-height: 2.0;
-  padding-bottom: 3rem;
-}
-
-.Service-section .car-repair-section .car-repair-box {
-  width: 40rem;
-  height: 25rem;
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
+.repair-box {
+  width: 33.3%;
+  box-shadow: 5px 5px 10px rgb(115, 3, 3);
+  border: 1px white solid;
+  padding: 2rem 2rem;
   cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
 }
 
-.Service-section .car-repair-section .car-repair-box .box-header {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 3rem;
+.repair-box h3 {
+  color: black;
 }
 
-.Service-section .car-repair-section .car-repair-box .box-header img {
-  width: 4rem;
-  color: yellow;
+.repair-box p {
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 2rem;
 }
 
-.Service-section .car-repair-section .car-repair-box p {
-  color: white;
-}
-
-.car-rental-section .container-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  line-height: 2.0;
-}
-
-
-
-.car-rental-section .container-2 .rental-box {
-  width: 40rem;
-  height: 25rem;
-  background: rgba(255, 255, 255, 0.701);
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-  line-height: 2.0;
-}
-
-.car-rental-section .container-2 .rental-box:hover {
+.repair-box:hover {
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
 }
 
-.gallery-video {
-  width: 40%;
-  height: 20rem;
-  border-radius: 3rem;
-}
-
-.gallery-video video {
-  height: 100%;
-  width: 30rem;
-  border-radius: 3rem;
+.heading-repair {
   display: flex;
-  justify-content: center;
-  align-content: center;
-
+  gap: 2rem;
+  align-items: center;
 }
+
+.heading-repair img {
+  width: 10rem;
+}
+
+.car-rapair-image {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+  padding: 2rem 0rem;
+}
+
+.car-rapair-image img {
+  width: 100%;
+}
+
+.car-rental-section {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 3rem 5rem;
+}
+
+.car-rental-section h2 {
+  text-align: center;
+  color: black;
+}
+
+.gallery-container {
+  display: flex;
+  gap: rem;
+  margin-top: 2rem;
+}
+
+.car-rental-gallery {
+  padding: 1rem 3rem;
+}
+
+.gallery-item img {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(115, 3, 3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+.faq-section {
+  margin-top: 2rem;
+}
+
+.faq {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  background: #fff;
+  margin: 10px 0;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 8px rgb(115, 3, 3));
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+  .faq-item:hover {
+  background: #f0f0f0;
+}
+
+.faq-item h3 {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  }
+
+.faq-item h3::after {
+  content: "+";
+  font-size: 2rem;
+  transition: transform 0.3s;
+}
+
+.faq-item.active h3::after {
+  content: "-";
+  transform: rotate(180deg);
+}
+
+.faq-item p {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.4s ease;
+  margin-top: 0;
+}
+
+.faq-item.active p {
+  max-height: 50rem; 
+  opacity: 1;
+  transform: scale(1);
+  margin-top: 1rem;
+ }
+
+ .gallery-section {
+  padding: 2rem 5rem;
+  margin-top: 3rem;
+ }
 
 span h1 {
   text-align: center;
-  letter-spacing: 2rem;
+  letter-spacing: 1rem;
+  font-size: 4rem;
 }
 
-.gallery-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  padding: 3rem 0rem;
-  background: #7c7878;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  line-height: 2.0;
-}
-
-.gallery-section .gallery-video{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 40rem;
-  height: 25rem;
-  cursor: pointer;
-  /* border-bottom: rgb(115, 3, 3) 2px solid; */
-}
-
-.gallery-section .gallery-video video {
-  width: 100%;
-}
 
 span p {
   font-size: 2.5rem;
@@ -401,23 +395,26 @@ span p {
 
 #testimonial-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
-  gap: 8rem;
+  gap: 3rem;
   line-height: 2.0;
-  background: rgb(231, 232, 225);
-  margin-top: 6rem;
-  padding: 3rem 0;
-  padding-bottom: ;
+  margin-top: 3rem;
   
 }
 
-.testimonial active {
-  width: 40rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
+#testimonial-section :hover {
+  transform: scale(1.05);
 }
+
+/* .testimonial-active {
+  width: 33.3%;
+  text-align: justify;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgb(115, 3, 3);
+  border: 1px white solid;
+  padding: 2rem 2rem;
+  cursor: pointer;
+} */
 
 .testimonial-image {
   border-radius: 50%;
@@ -427,10 +424,16 @@ span p {
 }
 
 .testimonial {
-  width: 40rem;
+  width: 33.3%;
   cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
+  box-shadow: 5px 5px 10px rgb(115, 3, 3);
+  border: 1px white solid;
+  padding: 2rem 2rem;
+  cursor: pointer;
+  /* border-bottom: rgb(115, 3, 3) 2px solid; */
 }
+
+
 
 .testimonial span {
   font-weight: bolder;
@@ -459,29 +462,15 @@ span p {
       margin-bottom: 10px;
     }
 
-.swiper-wrapper {
+.mobile-gallery #testimonial-section {
   display: none;
-}
-
-.swiper-slide {
-  display: none;
-}
-
-.swiper-button-prev{
-  display: none;
-}
-
-.swiper-scrollbar {
-  display: none;
-}
-
-.swiper-pagination {
-  display: none;
-}
-
-.testimonial-swiper {
-  display: none;
-}
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  line-height: 2.0;
+  margin-top: 3rem;
+  
+}}
 
 .find-us {
   margin-top: 5rem;
@@ -499,13 +488,13 @@ span p {
 
   .whatsapp-button {
       position: fixed;
-      bottom: 20px;
-      right: 20px;
+      bottom: 2rem;
+      right: 2rem;
       background-color: #25D366;
       color: white;
       border-radius: 50%;
-      width: 60px;
-      height: 60px;
+      width: 3rem;
+      height: 3rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -524,7 +513,7 @@ span p {
       position: fixed;
       bottom: 90px;
       right: 20px;
-      width: 280px;
+      width: 20rem;
       background: #fff;
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -582,7 +571,7 @@ span p {
 .footer {
   background-color: rgb(25, 8, 8);
   color: #fff;
-  padding: 40px 20px;
+  padding: 2rem 5rem;
   margin-top: 5rem;
 
 }
@@ -592,7 +581,6 @@ span p {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -651,6 +639,15 @@ span p {
 
 
 @media screen and (max-width: 76rem) {
+  body {
+  font-family: Arial, sans-serif;
+  font-size: 1.4rem;
+  height: 50vh;
+  line-height: 1.5;
+}
+
+
+
 .slider-container {
   position: relative;
 }
@@ -704,12 +701,11 @@ span p {
   justify-content: space-between;
   align-content: center;
   background: rgb(25, 8, 8);
-  padding: 3rem 1rem;
+  padding: 1.5rem 2rem;
   position: relative;
   /* overflow: hidden; */
   height: 100hv;
   z-index: 800;
-  display: ;
   position: fixed;
   top: 0;
   left: 0;
@@ -769,12 +765,12 @@ span p {
   width: 5rem;
   /* margin-bottom: auto; */
   position: relative;
-  background: rgb(115, 3, 3);
+
 }
 
 .bar {
   width: 100%;
-  height: 5px;
+  height: 2px;
   background-color: #fff;
   transition: .3s;
   border-radius: 2.5rem;
@@ -847,38 +843,17 @@ span p {
   background-color: red;
 }
 
-.welcome-section .welcome-section-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  padding: 0rem;
-  max-width: 100%;
-
-}
-
-.welcome-section .welcome-section-content .write-up-section {
-  width: 90%;
-}
-
 .welcome-button {
-  font-size: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: 3rem;
 }
-
-
 
 
 .welcome-button .book-appointment-btn {
-  padding: 0.5rem 1.5rem;
+  padding: 1.5rem 2rem;
   background-color: rgb(115, 3, 3);
   border: 3px solid rgb(115, 3, 3);
-  font-size: 1.3rem;
   color: white;
   border-radius: 10px;
   font-weight: 600;
@@ -887,10 +862,9 @@ span p {
 }
 
 .welcome-button .rent-a-car-btn {
-  padding: 0.5rem 0.5rem;
-  background: rgb(140, 138, 138);
+  padding: 1.5rem 2rem;
+  background: none;
   border: 3px solid rgb(115, 3, 3) ;
-  font-size: 1.3rem;
   color: white;
   border-radius: 10px;
   font-weight: 600;
@@ -907,109 +881,111 @@ span p {
   background: rgb(180, 78, 78);
 }
 
-.welcome-video {
-  margin-left: 0rem;
-  width: 90%;
-  height: 30rem;
-  border: 3px rgb(115, 3, 3) solid;
-  /* border-radius: 3rem; */
+.heading {
+  margin-top: 3rem;
 }
 
-.instagram-media {
-  height: 100%;
-  width: 100%;
-  border-radius: 3rem;
-}
-
-.Service-section h1 {
+.heading h1 {
   text-align: center;
-  padding-top: 4rem;
-  font-size: 2.5rem;
-  margin-bottom: 4rem;
 }
 
-.Service-section .car-repair-section {
+.heading h2 {
+  text-align: center;
+  margin-top: 2rem;
+  color: black;
+}
+
+.repair-section {
+  margin-top: 0rem;
+  padding: 1rem 3rem;
+}
+
+.repair-container-1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  font-size: 1.5rem;
-  background: #7c7878;
-  line-height: 2.0;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 3rem;
 }
 
-.Service-section .car-repair-section .car-repair-box {
-  width: 90%;
-  height: 20rem;
-  box-shadow: 56cm;
-  opacity: 1;
-  /* padding: 3rem 3rem; */
+.repair-box {
+  width: 100%;
+  box-shadow: 5px 5px 10px rgb(115, 3, 3);
+  border: 1px white solid;
+  padding: 2rem 2rem;
   cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
 }
 
-.Service-section .car-repair-section .car-repair-box .box-header {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 3rem;
+.repair-box h3 {
+  color: black;
 }
 
-.Service-section .car-repair-section .car-repair-box .box-header img {
-  width: 4rem;
-  color: yellow;
+.repair-box p {
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 2rem;
 }
 
-.Service-section .car-repair-section .car-repair-box p {
-  color: white;
-}
-
-.car-rental-section {
-  display: flex;
-  font-size: 1.5;
-  padding: rem 0rem;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  background: rgb(231, 232, 225);
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-
-}
-
-.car-rental-section .container-2 .rental-box {
-  width: 90%;
-  height: 20rem;
-  background: rgba(255, 255, 255, 0.701);
-  box-shadow: 56cm;
-  opacity: 1;
-  /* padding: 1rem 1rem; */
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-  line-height: 2.0;
-  font-size: 1.5rem;
-}
-
-.car-rental-section .container-2 .rental-box:hover {
-  transform: scale(1.2);
+.repair-box:hover {
+  transform: scale(1.05);
   transition: all 0.5s ease-in-out;
 }
 
-.gallery-video {
-  width: 40%;
-  height: 20rem;
-  border-radius: 3rem;
-}
-
-.gallery-video video {
-  height: 100%;
-  width: 30rem;
-  border-radius: 3rem;
+.heading-repair {
   display: flex;
-  justify-content: center;
-  align-content: center;
-
+  gap: 2rem;
+  align-items: center;
 }
+
+.heading-repair img {
+  width: 5rem;
+}
+
+.car-rapair-image {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+  padding: 2rem 0rem;
+}
+
+.car-rapair-image img {
+  width: 100%;
+}
+
+.car-rental-section {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 1rem 3rem;
+}
+
+.car-rental-section h2 {
+  text-align: center;
+  color: black;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: rem;
+  margin-top: 1rem;
+}
+
+.car-rental-gallery {
+  padding: 1rem 3rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(115, 3, 3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+
 
 span h1 {
   text-align: center;
@@ -1017,34 +993,7 @@ span h1 {
   font-size: 2.5rem;
 }
 
-.gallery-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-  padding: 3rem 0rem;
-  background: #7c7878;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  line-height: 2.0;
-}
 
-.gallery-section .gallery-video{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 90%;
-  height: 25rem;
-  cursor: pointer;
-  /* border-bottom: rgb(115, 3, 3) 2px solid; */
-}
-
-.gallery-section .gallery-video video {
-  width: 100%;
-}
 
 span p {
   font-size: 2.5rem;
@@ -1053,43 +1002,49 @@ span p {
   padding: 0rem 1rem;
 }
 
-#testimonial-section {
+ .gallery-section {
+  padding: 2rem 3rem;
+  margin-top: 3rem;
+ }
+
+.desktop-gallery {
+  display: none;
+}
+
+.mobile-gallery #testimonial-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  gap: 3rem;
   line-height: 2.0;
-  font-size: 1.5rem;
-  background: rgb(231, 232, 225);
-  margin-top: 6rem;
-  padding: 0rem 0rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.4rem 2rem rgba(0,0,0,0.1);
-  overflow: hidden;
+  margin-top: 3rem;
   
 }
 
+#testimonial-section :hover {
+  transform: scale(1.05);
+}
+
 .testimonial-image {
-  width: 10rem;
-  height: 10rem;
   border-radius: 50%;
   object-fit: cover;
   display: flex;
   justify-self: center;
 }
 
-.testimonial active {
-  display: none;
-  width: 90%;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
 .testimonial {
-  display: none;
-  width: 90%;
+  width: 100%;
   cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-  animation: fade-in 1s ease-in-out;
+  box-shadow: 5px 5px 10px rgb(115, 3, 3);
+  border: 1px white solid;
+  padding: 2rem 2rem;
+  cursor: pointer;
+  /* border-bottom: rgb(115, 3, 3) 2px solid; */
 }
 
+.testimonial span {
+  font-weight: bolder;
+}
 .nav-buttons {
   text-align: center;
   margin: 20px 0;
@@ -1127,1931 +1082,29 @@ span p {
   align-items: center
 }
 
-.swiper{
-  width: 80%;
-  height: fit-content;
-}
-
-.swiper-slide img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;;
-}
-
-.swiper .swiper-button-prev {
-  color: rgb(115, 3, 3);
-}
-
-.swiper .swiper-button-next {
-  color: rgb(115, 3, 3);
-}
-
-.swiper .swiper-pagination-bullet-active {
-  background: rgb(115, 3, 3);
-}
-
-.testimonial-swiper {
+.mobile-galley {
   display: block;
 }
 
-.testimonial-swiper img {
-  width: 10rem;
-  height: 10rem;
-  object-fit: cover;
-  margin-top: 2rem;
-}
-
-.testimonial-swiper span {
-  font-weight: bolder;
-}
-
 .find-us h1 {
   text-align: center;
   letter-spacing: 2rem;
   font-size: 2.5rem;
 }
 
+.footer-logo a img {
+  width: 14rem;
+  height: 3.5rem;
 }
 
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-  body {
-    font-size: 17px;
-  }
-
-  .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  background: rgb(25, 8, 8);
-  padding: 2rem 7rem;
-  display: fixed;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2000
-}
-
-.navbar a img {
-  width: 180px;
-  height: 50px;
-  align-self: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.navbar .menu ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  list-style: none;
-  color: white;
-  cursor: pointer;
-}
-
-.navbar .menu {
-  align-self: center;
-  background-color: ;
-}
-
-.navbar ul li a{
-  align-self: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.4rem;
-}
-
-.navbar ul li a:hover {
-  background: grey;
-}
-
-.navbar ul li a button {
-  background: rgb(115, 3, 3);
-  color: white;
-  padding: 1rem 1rem;
-  font-size: 1.4rem;
-  border: none;
-  border-radius: 30%;
-  cursor: pointer;
-}
-
-.navbar ul li a button:hover {
-  background-color: red;
-}
-
-.mobile-content {
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-.slider-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  width: 300%;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-  touch-action: pan-y;
-}
-
-.slide {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  flex-shrink: 0;
-  aspect-ratio: 16 / 9;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: absolute;
-  color: white;
-  padding: 1.5em;
-  border-radius: 10px;
-  max-width: 40%;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1
-}
-
-.content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-
-
-.slide1 {
-  background-image: url('./Images/Fade_Auto_03.png');
-}
-.slide2 {
-  background-image: url('./Images/Fade_Auto.png');
-}
-.slide3 {
-  background-image: url('./Images/Fade_Auto_02.png');
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 0.5em 1em;
-  z-index: 10;
-  user-select: none;
-}
-
-.arrow.left {
-  left: 10px;
-}
-
-.arrow.right {
-  right: 10px;
-}
-
-.content h1 {
-  font-size: 4rem;
-  color: white;
-}
-
-
-
-
-.welcome-section {
-  margin-top: 7rem;
-  /* background: rgba(64, 63, 63, 0.773); */
-  line-height: 2.5;
-}
-
-.welcome-section .welcome-section-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10rem;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem;
-  max-width: 100%;
-
-}
-
-.welcome-section .welcome-section-content .write-up-section {
-  width: 40%;
-}
-
-.welcome-button {
-  display: flex;
-  gap: 3rem;
-  margin-top: 7rem;
-}
-
-
-
-
-.welcome-button .book-appointment-btn {
-  padding: 1.5rem 2rem;
-  background-color: rgb(115, 3, 3);
-  border: 3px solid rgb(115, 3, 3);
-  font-size: 2rem;
-  color: white;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: background 0.3s ease;
-  cursor: pointer;
-}
-
-.welcome-button .rent-a-car-btn {
-  padding: 1.5rem 2rem;
-  background: none;
-  border: 3px solid rgb(115, 3, 3) ;
-  font-size: 2rem;
-  color: rgb(115, 3, 3);
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-
-}
-
-
-.welcome-button .rent-a-car-btn:hover {
-  background: gainsboro;
-}
-
-.welcome-button .book-appointment-btn:hover {
-  background: rgb(180, 78, 78);
-}
-
-.welcome-video {
-  width: 40%;
-  height: 50rem;
-  border: 3px rgb(115, 3, 3) solid;
-  /* border-radius: 3rem; */
-}
-
-.instagram-media {
-  height: 100%;
-  width: 100%;
-  border-radius: 3rem;
-}
-
-.Service-section h1 {
-  text-align: center;
-  padding-top: 4rem;
-  font-size: 7rem;
-  margin-bottom: 0rem;
-}
-
-
-
-.car-rental-section {
-  display: flex;
-  padding: 8rem 0rem;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  background: rgb(231, 232, 225);
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-
-}
-
-.Service-section .car-repair-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  background: #7c7878;
-  line-height: 2.0;
-  padding-bottom: 3rem;
-}
-
-.Service-section .car-repair-section .car-repair-box {
-  width: 40rem;
-  height: 25rem;
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.Service-section .car-repair-section .car-repair-box .box-header {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.Service-section .car-repair-section .car-repair-box .box-header img {
-  width: 4rem;
-  color: yellow;
-}
-
-.Service-section .car-repair-section .car-repair-box p {
-  color: white;
-}
-
-.car-rental-section .container-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  line-height: 2.0;
-}
-
-
-
-.car-rental-section .container-2 .rental-box {
-  width: 40rem;
-  height: 25rem;
-  background: rgba(255, 255, 255, 0.701);
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-  line-height: 2.0;
-}
-
-.car-rental-section .container-2 .rental-box:hover {
-  transform: scale(1.05);
-  transition: all 0.5s ease-in-out;
-}
-
-.gallery-video {
-  width: 40%;
-  height: 20rem;
-  border-radius: 3rem;
-}
-
-.gallery-video video {
-  height: 100%;
-  width: 30rem;
-  border-radius: 3rem;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
-
-span h1 {
-  text-align: center;
-  letter-spacing: 2rem;
-}
-
-.gallery-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  padding: 3rem 0rem;
-  background: #7c7878;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  line-height: 2.0;
-}
-
-.gallery-section .gallery-video{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 40rem;
-  height: 25rem;
-  cursor: pointer;
-  /* border-bottom: rgb(115, 3, 3) 2px solid; */
-}
-
-.gallery-section .gallery-video video {
-  width: 100%;
-}
-
-span p {
-  font-size: 2.5rem;
-  margin-top: 1.5rem;
-  text-align: center;
-}
-
-#testimonial-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 8rem;
-  line-height: 2.0;
-  background: rgb(231, 232, 225);
-  margin-top: 6rem;
-  padding: 3rem 0;
-  padding-bottom: ;
-  
-}
-
-.testimonial active {
-  width: 40rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.testimonial-image {
-  border-radius: 50%;
-  object-fit: cover;
-  display: flex;
-  justify-self: center;
-}
-
-.testimonial {
-  width: 40rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.testimonial span {
-  font-weight: bolder;
-}
-
-.nav-buttons {
-  display: none;
-  text-align: center;
-  margin: 20px 0;
-}
-
-.nav-buttons button {
-  display: none;
-  background: #007bff;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  margin: 0 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-    .stars {
-      color: gold;
-      font-size: 1.2rem;
-      margin-bottom: 10px;
-    }
-
-.swiper-wrapper {
-  display: none;
-}
-
-.swiper-slide {
-  display: none;
-}
-
-.swiper-button-prev{
-  display: none;
-}
-
-.swiper-scrollbar {
-  display: none;
-}
-
-.swiper-pagination {
-  display: none;
-}
-
-.testimonial-swiper {
-  display: none;
-}
-
-.find-us {
-  margin-top: 5rem;
-}
-
-.find-us h1 {
-  text-align: center;
-  letter-spacing: 2rem;
-}
-
-.map {
-  width: 100%;
-  margin-top: 5rem;
-}
-
-  .whatsapp-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 30px;
-      cursor: pointer;
-      z-index: 1000;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s ease;
-    }
-
-    .whatsapp-button:hover {
-      transform: scale(1.1);
-    }
-
-    .whatsapp-chat {
-      position: fixed;
-      bottom: 90px;
-      right: 20px;
-      width: 280px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      display: none;
-      animation: slideIn 0.4s ease-out forwards;
-      z-index: 1000;
-      overflow: hidden;
-    }
-
-    @keyframes slideIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .whatsapp-chat-header {
-      background-color: #25D366;
-      color: white;
-      padding: 10px;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    .whatsapp-chat-body {
-      padding: 15px;
-      font-size: 14px;
-      color: #333;
-    }
-
-    .whatsapp-chat-body p {
-      margin: 0 0 10px;
-    }
-
-    .whatsapp-chat a {
-      display: block;
-      text-align: center;
-      background: #25D366;
-      color: white;
-      padding: 10px;
-      margin-top: 10px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    .show-chat {
-      display: block;
-    }
-/* Fotter section */
-.footer {
-  background-color: rgb(25, 8, 8);
-  color: #fff;
-  padding: 40px 20px;
-  margin-top: 5rem;
-
+.footer-section {
+  flex: 1 1 ;
 }
 
 .footer-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.footer-section {
-  flex: 1 1 200px;
-}
-
-.footer-section h2, .footer-section h3 {
-  margin-bottom: 15px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 10px;
-}
-
-.footer-section ul li a {
-  text-decoration: none;
-  color: #ccc;
-  transition: 0.3s;
-}
-
-.footer-section ul li a:hover {
-  color: #fff;
-}
-
-.footer-section .social-icons img {
-  width: 24px;
-  margin-right: 10px;
-  transition: transform 0.3s ease;
-}
-
-.footer-section .social-icons img:hover {
-  transform: scale(1.2);
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
-  border-top: 1px solid #333;
-  padding-top: 15px;
-  color: #aaa;
-}
-
-.footer .footer-container .footer-section img {
-  width: 70%;
-}
-}
-
-
-@media (min-width: 1281px) and (max-width: 1440px) {
-  body {
-    font-size: 18px;
-  }
-
-  .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  background: rgb(25, 8, 8);
-  padding: 2rem 7rem;
-  display: fixed;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2000
-}
-
-.navbar a img {
-  width: 180px;
-  height: 50px;
-  align-self: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.navbar .menu ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  list-style: none;
-  color: white;
-  cursor: pointer;
-}
-
-.navbar .menu {
-  align-self: center;
-  background-color: ;
-}
-
-.navbar ul li a{
-  align-self: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.4rem;
-}
-
-.navbar ul li a:hover {
-  background: grey;
-}
-
-.navbar ul li a button {
-  background: rgb(115, 3, 3);
-  color: white;
-  padding: 1rem 1rem;
-  font-size: 1.4rem;
-  border: none;
-  border-radius: 30%;
-  cursor: pointer;
-}
-
-.navbar ul li a button:hover {
-  background-color: red;
-}
-
-.mobile-content {
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-.slider-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  width: 300%;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-  touch-action: pan-y;
-}
-
-.slide {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  flex-shrink: 0;
-  aspect-ratio: 16 / 9;
-}
-
-.content {
-  display: flex;
   flex-direction: column;
-  align-content: center;
-  position: absolute;
-
-  color: white;
-  padding: 1.5em;
-  border-radius: 10px;
-  max-width: 40%;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1
-}
-
-.content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-
-
-.slide1 {
-  background-image: url('./Images/Fade_Auto_03.png');
-}
-.slide2 {
-  background-image: url('./Images/Fade_Auto.png');
-}
-.slide3 {
-  background-image: url('./Images/Fade_Auto_02.png');
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 0.5em 1em;
-  z-index: 10;
-  user-select: none;
-}
-
-.arrow.left {
-  left: 10px;
-}
-
-.arrow.right {
-  right: 10px;
-}
-
-.content h1 {
-  font-size: 4rem;
-  color: white;
-}
-
-
-
-
-.welcome-section {
-  margin-top: 7rem;
-  /* background: rgba(64, 63, 63, 0.773); */
-  line-height: 2.5;
-}
-
-.welcome-section .welcome-section-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10rem;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem;
-  max-width: 100%;
-
-}
-
-.welcome-section .welcome-section-content .write-up-section {
-  width: 40%;
-}
-
-.welcome-button {
-  display: flex;
-  gap: 3rem;
-  margin-top: 7rem;
-}
-
-
-
-
-.welcome-button .book-appointment-btn {
-  padding: 1.5rem 2rem;
-  background-color: rgb(115, 3, 3);
-  border: 3px solid rgb(115, 3, 3);
-  font-size: 2rem;
-  color: white;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: background 0.3s ease;
-  cursor: pointer;
-}
-
-.welcome-button .rent-a-car-btn {
-  padding: 1.5rem 2rem;
-  background: none;
-  border: 3px solid rgb(115, 3, 3) ;
-  font-size: 2rem;
-  color: rgb(115, 3, 3);
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-
-}
-
-
-.welcome-button .rent-a-car-btn:hover {
-  background: gainsboro;
-}
-
-.welcome-button .book-appointment-btn:hover {
-  background: rgb(180, 78, 78);
-}
-
-.welcome-video {
-  width: 40%;
-  height: 50rem;
-  border: 3px rgb(115, 3, 3) solid;
-  /* border-radius: 3rem; */
-}
-
-.instagram-media {
-  height: 100%;
-  width: 100%;
-  border-radius: 3rem;
-}
-
-.Service-section h1 {
-  text-align: center;
-  padding-top: 4rem;
-  font-size: 7rem;
-  margin-bottom: 0rem;
-}
-
-
-
-.car-rental-section {
-  display: flex;
-  padding: 8rem 0rem;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  background: rgb(231, 232, 225);
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-
-}
-
-.Service-section .car-repair-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  background: #7c7878;
-  line-height: 2.0;
-  padding-bottom: 3rem;
-}
-
-.Service-section .car-repair-section .car-repair-box {
-  width: 40rem;
-  height: 25rem;
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.Service-section .car-repair-section .car-repair-box .box-header {
-  display: flex;
   gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.Service-section .car-repair-section .car-repair-box .box-header img {
-  width: 4rem;
-  color: yellow;
-}
-
-.Service-section .car-repair-section .car-repair-box p {
-  color: white;
-}
-
-.car-rental-section .container-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  line-height: 2.0;
-}
-
-
-
-.car-rental-section .container-2 .rental-box {
-  width: 40rem;
-  height: 25rem;
-  background: rgba(255, 255, 255, 0.701);
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-  line-height: 2.0;
-}
-
-.car-rental-section .container-2 .rental-box:hover {
-  transform: scale(1.05);
-  transition: all 0.5s ease-in-out;
-}
-
-.gallery-video {
-  width: 40%;
-  height: 20rem;
-  border-radius: 3rem;
-}
-
-.gallery-video video {
-  height: 100%;
-  width: 30rem;
-  border-radius: 3rem;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
-
-span h1 {
-  text-align: center;
-  letter-spacing: 2rem;
-}
-
-.gallery-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  padding: 3rem 0rem;
-  background: #7c7878;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  line-height: 2.0;
-}
-
-.gallery-section .gallery-video{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 40rem;
-  height: 25rem;
-  cursor: pointer;
-  /* border-bottom: rgb(115, 3, 3) 2px solid; */
-}
-
-.gallery-section .gallery-video video {
-  width: 100%;
-}
-
-span p {
-  font-size: 2.5rem;
-  margin-top: 1.5rem;
-  text-align: center;
-}
-
-#testimonial-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 8rem;
-  line-height: 2.0;
-  background: rgb(231, 232, 225);
-  margin-top: 6rem;
-  padding: 3rem 0;
-  padding-bottom: ;
-  
-}
-
-.testimonial active {
-  width: 40rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.testimonial-image {
-  border-radius: 50%;
-  object-fit: cover;
-  display: flex;
-  justify-self: center;
-}
-
-.testimonial {
-  width: 40rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.testimonial span {
-  font-weight: bolder;
-}
-
-.nav-buttons {
-  display: none;
-  text-align: center;
-  margin: 20px 0;
-}
-
-.nav-buttons button {
-  display: none;
-  background: #007bff;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  margin: 0 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-    .stars {
-      color: gold;
-      font-size: 1.2rem;
-      margin-bottom: 10px;
-    }
-
-.swiper-wrapper {
-  display: none;
-}
-
-.swiper-slide {
-  display: none;
-}
-
-.swiper-button-prev{
-  display: none;
-}
-
-.swiper-scrollbar {
-  display: none;
-}
-
-.swiper-pagination {
-  display: none;
-}
-
-.testimonial-swiper {
-  display: none;
-}
-
-.find-us {
-  margin-top: 5rem;
-}
-
-.find-us h1 {
-  text-align: center;
-  letter-spacing: 2rem;
-}
-
-.map {
-  width: 100%;
-  margin-top: 5rem;
-}
-
-  .whatsapp-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 30px;
-      cursor: pointer;
-      z-index: 1000;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s ease;
-    }
-
-    .whatsapp-button:hover {
-      transform: scale(1.1);
-    }
-
-    .whatsapp-chat {
-      position: fixed;
-      bottom: 90px;
-      right: 20px;
-      width: 280px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      display: none;
-      animation: slideIn 0.4s ease-out forwards;
-      z-index: 1000;
-      overflow: hidden;
-    }
-
-    @keyframes slideIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .whatsapp-chat-header {
-      background-color: #25D366;
-      color: white;
-      padding: 10px;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    .whatsapp-chat-body {
-      padding: 15px;
-      font-size: 14px;
-      color: #333;
-    }
-
-    .whatsapp-chat-body p {
-      margin: 0 0 10px;
-    }
-
-    .whatsapp-chat a {
-      display: block;
-      text-align: center;
-      background: #25D366;
-      color: white;
-      padding: 10px;
-      margin-top: 10px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    .show-chat {
-      display: block;
-    }
-/* Fotter section */
-.footer {
-  background-color: rgb(25, 8, 8);
-  color: #fff;
-  padding: 40px 20px;
-  margin-top: 5rem;
-
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
-  max-width: 1200px;
   margin: auto;
-}
 
-.footer-section {
-  flex: 1 1 200px;
-}
-
-.footer-section h2, .footer-section h3 {
-  margin-bottom: 15px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 10px;
-}
-
-.footer-section ul li a {
-  text-decoration: none;
-  color: #ccc;
-  transition: 0.3s;
-}
-
-.footer-section ul li a:hover {
-  color: #fff;
-}
-
-.footer-section .social-icons img {
-  width: 24px;
-  margin-right: 10px;
-  transition: transform 0.3s ease;
-}
-
-.footer-section .social-icons img:hover {
-  transform: scale(1.2);
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
-  border-top: 1px solid #333;
-  padding-top: 15px;
-  color: #aaa;
-}
-
-.footer .footer-container .footer-section img {
-  width: 70%;
-}
-}
-
-@media (min-width: 1441px) and (max-width: 1919px) {
-  body {
-    font-size: 19px;
-  }
-
-  .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  background: rgb(25, 8, 8);
-  padding: 2rem 7rem;
-  display: fixed;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2000
-}
-
-.navbar a img {
-  width: 180px;
-  height: 50px;
-  align-self: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.navbar .menu ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  list-style: none;
-  color: white;
-  cursor: pointer;
-}
-
-.navbar .menu {
-  align-self: center;
-  background-color: ;
-}
-
-.navbar ul li a{
-  align-self: center;
-  color: white;
-  text-decoration: none;
-  font-size: 1.4rem;
-}
-
-.navbar ul li a:hover {
-  background: grey;
-}
-
-.navbar ul li a button {
-  background: rgb(115, 3, 3);
-  color: white;
-  padding: 1rem 1rem;
-  font-size: 1.4rem;
-  border: none;
-  border-radius: 30%;
-  cursor: pointer;
-}
-
-.navbar ul li a button:hover {
-  background-color: red;
-}
-
-.mobile-content {
-  display: none;
-}
-
-.mobile-menu {
-  display: none;
-}
-
-.slider-container {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  width: 300%;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-  touch-action: pan-y;
-}
-
-.slide {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  flex-shrink: 0;
-  aspect-ratio: 16 / 9;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  position: absolute;
-  color: white;
-  padding: 1.5em;
-  border-radius: 10px;
-  max-width: 40%;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1
-}
-
-.content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-
-
-.slide1 {
-  background-image: url('./Images/Fade_Auto_03.png');
-}
-.slide2 {
-  background-image: url('./Images/Fade_Auto.png');
-}
-.slide3 {
-  background-image: url('./Images/Fade_Auto_02.png');
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  border: none;
-  cursor: pointer;
-  padding: 0.5em 1em;
-  z-index: 10;
-  user-select: none;
-}
-
-.arrow.left {
-  left: 10px;
-}
-
-.arrow.right {
-  right: 10px;
-}
-
-.content h1 {
-  font-size: 4rem;
-  color: white;
-}
-
-
-
-
-.welcome-section {
-  margin-top: 7rem;
-  /* background: rgba(64, 63, 63, 0.773); */
-  line-height: 2.5;
-}
-
-.welcome-section .welcome-section-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10rem;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem;
-  max-width: 100%;
-
-}
-
-.welcome-section .welcome-section-content .write-up-section {
-  width: 40%;
-}
-
-.welcome-button {
-  display: flex;
-  gap: 3rem;
-  margin-top: 7rem;
-}
-
-
-
-
-.welcome-button .book-appointment-btn {
-  padding: 1.5rem 2rem;
-  background-color: rgb(115, 3, 3);
-  border: 3px solid rgb(115, 3, 3);
-  font-size: 2rem;
-  color: white;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: background 0.3s ease;
-  cursor: pointer;
-}
-
-.welcome-button .rent-a-car-btn {
-  padding: 1.5rem 2rem;
-  background: none;
-  border: 3px solid rgb(115, 3, 3) ;
-  font-size: 2rem;
-  color: rgb(115, 3, 3);
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-
-}
-
-
-.welcome-button .rent-a-car-btn:hover {
-  background: gainsboro;
-}
-
-.welcome-button .book-appointment-btn:hover {
-  background: rgb(180, 78, 78);
-}
-
-.welcome-video {
-  width: 40%;
-  height: 50rem;
-  border: 3px rgb(115, 3, 3) solid;
-  /* border-radius: 3rem; */
-}
-
-.instagram-media {
-  height: 100%;
-  width: 100%;
-  border-radius: 3rem;
-}
-
-.Service-section h1 {
-  text-align: center;
-  padding-top: 4rem;
-  font-size: 7rem;
-  margin-bottom: 0rem;
-}
-
-
-
-.car-rental-section {
-  display: flex;
-  padding: 8rem 0rem;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  background: rgb(231, 232, 225);
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-
-}
-
-.Service-section .car-repair-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  background: #7c7878;
-  line-height: 2.0;
-  padding-bottom: 3rem;
-}
-
-.Service-section .car-repair-section .car-repair-box {
-  width: 40rem;
-  height: 25rem;
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.Service-section .car-repair-section .car-repair-box .box-header {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.Service-section .car-repair-section .car-repair-box .box-header img {
-  width: 4rem;
-  color: yellow;
-}
-
-.Service-section .car-repair-section .car-repair-box p {
-  color: white;
-}
-
-.car-rental-section .container-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  line-height: 2.0;
-}
-
-
-
-.car-rental-section .container-2 .rental-box {
-  width: 40rem;
-  height: 25rem;
-  background: rgba(255, 255, 255, 0.701);
-  box-shadow: 56cm;
-  opacity: 1;
-  padding: 3rem 3rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-  line-height: 2.0;
-}
-
-.car-rental-section .container-2 .rental-box:hover {
-  transform: scale(1.05);
-  transition: all 0.5s ease-in-out;
-}
-
-.gallery-video {
-  width: 40%;
-  height: 20rem;
-  border-radius: 3rem;
-}
-
-.gallery-video video {
-  height: 100%;
-  width: 30rem;
-  border-radius: 3rem;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
-
-span h1 {
-  text-align: center;
-  letter-spacing: 2rem;
-}
-
-.gallery-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-  padding: 3rem 0rem;
-  background: #7c7878;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  line-height: 2.0;
-}
-
-.gallery-section .gallery-video{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 40rem;
-  height: 25rem;
-  cursor: pointer;
-  /* border-bottom: rgb(115, 3, 3) 2px solid; */
-}
-
-.gallery-section .gallery-video video {
-  width: 100%;
-}
-
-span p {
-  font-size: 2.5rem;
-  margin-top: 1.5rem;
-  text-align: center;
-}
-
-#testimonial-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 8rem;
-  line-height: 2.0;
-  background: rgb(231, 232, 225);
-  margin-top: 6rem;
-  padding: 3rem 0;
-  padding-bottom: ;
-  
-}
-
-.testimonial active {
-  width: 40rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.testimonial-image {
-  border-radius: 50%;
-  object-fit: cover;
-  display: flex;
-  justify-self: center;
-}
-
-.testimonial {
-  width: 40rem;
-  cursor: pointer;
-  border-bottom: rgb(115, 3, 3) 2px solid;
-}
-
-.testimonial span {
-  font-weight: bolder;
-}
-
-.nav-buttons {
-  display: none;
-  text-align: center;
-  margin: 20px 0;
-}
-
-.nav-buttons button {
-  display: none;
-  background: #007bff;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  margin: 0 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-    .stars {
-      color: gold;
-      font-size: 1.2rem;
-      margin-bottom: 10px;
-    }
-
-.swiper-wrapper {
-  display: none;
-}
-
-.swiper-slide {
-  display: none;
-}
-
-.swiper-button-prev{
-  display: none;
-}
-
-.swiper-scrollbar {
-  display: none;
-}
-
-.swiper-pagination {
-  display: none;
-}
-
-.testimonial-swiper {
-  display: none;
-}
-
-.find-us {
-  margin-top: 5rem;
-}
-
-.find-us h1 {
-  text-align: center;
-  letter-spacing: 2rem;
-}
-
-.map {
-  width: 100%;
-  margin-top: 5rem;
-}
-
-  .whatsapp-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 30px;
-      cursor: pointer;
-      z-index: 1000;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s ease;
-    }
-
-    .whatsapp-button:hover {
-      transform: scale(1.1);
-    }
-
-    .whatsapp-chat {
-      position: fixed;
-      bottom: 90px;
-      right: 20px;
-      width: 280px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      display: none;
-      animation: slideIn 0.4s ease-out forwards;
-      z-index: 1000;
-      overflow: hidden;
-    }
-
-    @keyframes slideIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .whatsapp-chat-header {
-      background-color: #25D366;
-      color: white;
-      padding: 10px;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    .whatsapp-chat-body {
-      padding: 15px;
-      font-size: 14px;
-      color: #333;
-    }
-
-    .whatsapp-chat-body p {
-      margin: 0 0 10px;
-    }
-
-    .whatsapp-chat a {
-      display: block;
-      text-align: center;
-      background: #25D366;
-      color: white;
-      padding: 10px;
-      margin-top: 10px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    .show-chat {
-      display: block;
-    }
-/* Fotter section */
-.footer {
-  background-color: rgb(25, 8, 8);
-  color: #fff;
-  padding: 40px 20px;
-  margin-top: 5rem;
-
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.footer-section {
-  flex: 1 1 200px;
-}
-
-.footer-section h2, .footer-section h3 {
-  margin-bottom: 15px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 10px;
-}
-
-.footer-section ul li a {
-  text-decoration: none;
-  color: #ccc;
-  transition: 0.3s;
-}
-
-.footer-section ul li a:hover {
-  color: #fff;
-}
-
-.footer-section .social-icons img {
-  width: 24px;
-  margin-right: 10px;
-  transition: transform 0.3s ease;
-}
-
-.footer-section .social-icons img:hover {
-  transform: scale(1.2);
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 14px;
-  border-top: 1px solid #333;
-  padding-top: 15px;
-  color: #aaa;
-}
-
-.footer .footer-container .footer-section img {
-  width: 70%;
-}
 }
